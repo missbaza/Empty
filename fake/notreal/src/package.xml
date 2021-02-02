@@ -1,20 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
+    <members>AdvancedDataManipulator</members>
+    <members>AdvancedDataManipulatorScheduler</members>
+    <members>ChangePasswordController</members>
+    <members>ChangePasswordControllerTest</members>
+    <members>CommunitiesLandingController</members>
+    <members>CommunitiesLandingControllerTest</members>
+    <members>CustomSiteRegisterController</members>
+    <members>FailingTests</members>
+    <members>Names</members>
+    <members>PassingTests</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
+    <members>CustomLabels</members>
+    <name>CustomLabels</name>
+  </types>
+  <types>
     <members>Account</members>
+    <members>Account__c</members>
+    <members>AccountContactRole</members>
+    <members>Activity</members>
+    <members>Alexis__c</members>
+    <members>Asset</members>
+    <members>AssetRelationship</members>
+    <members>AssistantProgress</members>
+    <members>AuthorizationForm</members>
+    <members>AuthorizationFormConsent</members>
+    <members>AuthorizationFormDataUse</members>
+    <members>AuthorizationFormText</members>
+    <members>Bioscience__c</members>
+    <members>Campaign</members>
+    <members>CampaignMember</members>
+    <members>Case</members>
+    <members>CaseComment</members>
+    <members>CaseContactRole</members>
+    <members>ChatterActivity</members>
+    <members>CollaborationGroup</members>
+    <members>CollaborationGroupMember</members>
+    <members>Contact</members>
+    <members>ContactPointAddress</members>
+    <members>ContactPointEmail</members>
+    <members>ContactPointPhone</members>
+    <members>ContactPointTypeConsent</members>
+    <members>ContactRequest</members>
+    <members>ContentVersion</members>
+    <members>Contract</members>
+    <members>ContractContactRole</members>
+    <members>DataUseLegalBasis</members>
+    <members>DataUsePurpose</members>
+    <members>Deactivate_Tubular_Users__c</members>
+    <members>DuplicateRecordItem</members>
+    <members>DuplicateRecordSet</members>
+    <members>EmailMessage</members>
+    <members>Energy_Audit__c</members>
+    <members>EngagementChannelType</members>
+    <members>Event</members>
+    <members>ExchangeUserMapping</members>
+    <members>ExpressionFilter</members>
+    <members>ExpressionFilterCriteria</members>
+    <members>FeedItem</members>
+    <members>FieldTrackingTest__c</members>
+    <members>Gwilym_Test__mdt</members>
+    <members>Idea</members>
+    <members>IdeaComment</members>
+    <members>Image</members>
+    <members>Individual</members>
+    <members>Lead</members>
+    <members>Macro</members>
+    <members>MacroAction</members>
+    <members>MacroInstruction</members>
+    <members>MacroUsage</members>
+    <members>MariyamTest__c</members>
+    <members>Matthew__c</members>
+    <members>MessagingEndUser</members>
+    <members>MessagingSession</members>
+    <members>Nicole__mdt</members>
+    <members>ObjectPermission__c</members>
+    <members>Opportunity</members>
+    <members>OpportunityCompetitor</members>
+    <members>OpportunityContactRole</members>
+    <members>OpportunityLineItem</members>
+    <members>Order</members>
+    <members>OrderItem</members>
+    <members>OrgMetricScanResult</members>
+    <members>OrgMetricScanSummary</members>
+    <members>PartnerRole</members>
+    <members>Pricebook2</members>
+    <members>PricebookEntry</members>
+    <members>Product2</members>
+    <members>PromptAction</members>
+    <members>QuickText</members>
+    <members>QuickTextUsage</members>
+    <members>Recommendation</members>
+    <members>RecordAction</members>
+    <members>RecordMergeHistory</members>
+    <members>RequestsForAccessSIQ</members>
+    <members>SamKing__c</members>
+    <members>Scorecard</members>
+    <members>ScorecardAssociation</members>
+    <members>ScorecardMetric</members>
+    <members>Site</members>
+    <members>Skye_Test__c</members>
+    <members>SocialPersona</members>
+    <members>Solution</members>
+    <members>StreamActivityAccess</members>
+    <members>StreamingChannel</members>
+    <members>Task</members>
+    <members>Team__c</members>
+    <members>Topic</members>
+    <members>TopicAssignment</members>
+    <members>Twist__c</members>
+    <members>User</members>
+    <members>UserProvisioningRequest</members>
+    <members>Vikranth_Test__mdt</members>
     <name>CustomObject</name>
+  </types>
+  <types>
+    <members>Sheik2</members>
+    <members>VincenzoDelete</members>
+    <name>GlobalValueSet</name>
   </types>
   <types>
     <members>Admin</members>
     <members>Analytics Cloud Integration User</members>
     <members>Analytics Cloud Security User</members>
+    <members>Bernt</members>
+    <members>Brackets %28Test%29</members>
     <members>ContractManager</members>
     <members>Cross Org Data Proxy User</members>
     <members>Custom%3A Marketing Profile</members>
     <members>Custom%3A Sales Profile</members>
     <members>Custom%3A Support Profile</members>
+    <members>Delete Rename</members>
+    <members>Dinash</members>
     <members>Force%2Ecom - App Subscription User</members>
     <members>Force%2Ecom - Free User</members>
     <members>Identity User</members>
+    <members>ManagePackageLicense</members>
     <members>MarketingProfile</members>
     <members>Partner App Subscription User</members>
     <members>ReadOnly</members>
@@ -25,8 +149,49 @@
     <name>Profile</name>
   </types>
   <types>
-    <members>CustomLabels</members>
-    <name>CustomLabels</name>
+    <members>AccountContactRole</members>
+    <members>AccountOwnership</members>
+    <members>AccountRating</members>
+    <members>AccountType</members>
+    <members>AssetStatus</members>
+    <members>CampaignMemberStatus</members>
+    <members>CampaignStatus</members>
+    <members>CampaignType</members>
+    <members>CaseContactRole</members>
+    <members>CaseOrigin</members>
+    <members>CasePriority</members>
+    <members>CaseReason</members>
+    <members>CaseStatus</members>
+    <members>CaseType</members>
+    <members>ComplianceGroup</members>
+    <members>ContactRole</members>
+    <members>ContractStatus</members>
+    <members>EventSubject</members>
+    <members>EventType</members>
+    <members>FieldBusinessStatus</members>
+    <members>IdeaMultiCategory</members>
+    <members>IdeaStatus</members>
+    <members>Industry</members>
+    <members>LeadSource</members>
+    <members>LeadStatus</members>
+    <members>OpportunityCompetitor</members>
+    <members>OpportunityStage</members>
+    <members>OpportunityType</members>
+    <members>OrderStatus</members>
+    <members>OrderType</members>
+    <members>PartnerRole</members>
+    <members>Product2Family</members>
+    <members>QuantityUnitOfMeasure</members>
+    <members>QuickTextCategory</members>
+    <members>QuickTextChannel</members>
+    <members>Salutation</members>
+    <members>SecurityClassification</members>
+    <members>SolutionStatus</members>
+    <members>TaskPriority</members>
+    <members>TaskStatus</members>
+    <members>TaskSubject</members>
+    <members>TaskType</members>
+    <name>StandardValueSet</name>
   </types>
   <version>47.0</version>
 </Package>
